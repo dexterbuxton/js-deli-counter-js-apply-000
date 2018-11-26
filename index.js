@@ -1,9 +1,11 @@
-function takeANumber(array, name) {
-  // Add the customer to the array
-  array.push(name);
+function takeANumber(lineOfPeople, newCustomer) {
+  // Add the customer to the line of people
+  lineOfPeople.push(newCustomer);
   // Determine the number for this customer
-  let currentNumber = array.length;
-  return `Welcome, ${name}. You are number ${currentNumber} in line.`
+  let currentNumber = lineOfPeople.length;
+  return `Welcome, ${newCustomer}. You are number ${currentNumber} in line.`
 }
 
-function nowServing()
+function nowServing(lineOfPeople){
+  
+}
