@@ -10,11 +10,11 @@ function takeANumber(lineOfPeople, newCustomer) {
 
 function nowServing(lineOfPeople){
   // Determine if there are any people in line
-  if lineOfPeople.length === 0 {
+  if (lineOfPeople.length === 0) {
     return "There is nobody waiting to be served!";
   }
   
   // Remove the person at the beginning of the lineOfPeople
   let currentCustomer = lineOfPeople.shift()
-  
+  return `Currently serving ${currentCustomer}.`
 }
