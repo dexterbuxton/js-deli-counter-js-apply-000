@@ -22,9 +22,10 @@ function nowServing(lineOfPeople){
 
 function currentLine(lineOfPeople){
    // Determine if there are any people in line
-  if (lineOfPeople.length === 0) {
+  let lineLength = lineOfPeople.length;
+  if (lineLength === 0) {
     return "The line is currently empty.";
   }
-  
+  for i in 
   
 }
