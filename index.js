@@ -5,3 +5,4 @@ function takeANumber(array, name) {
   let currentNumber = array.length + 1;
   return 'Welcome, ${name}. You are number ${currentNumber} in line.'
 }
+
