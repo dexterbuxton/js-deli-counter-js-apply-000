@@ -15,11 +15,16 @@ function nowServing(lineOfPeople){
   }
   
   // Remove the person at the beginning of the lineOfPeople
-  let currentCustomer = lineOfPeople.shift()
-  return `Currently serving ${currentCustomer}.`
+  let currentCustomer = lineOfPeople.shift();
+  return `Currently serving ${currentCustomer}.`;
 }
 
 
 function currentLine(lineOfPeople){
+   // Determine if there are any people in line
+  if (lineOfPeople.length === 0) {
+    return "The line is currently empty.";
+  }
+  
   
 }
