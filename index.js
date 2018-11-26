@@ -9,7 +9,7 @@ function takeANumber(lineOfPeople, newCustomer) {
 }
 
 function nowServing(lineOfPeople){
-  // Deter
+  // Determine if there are any people in line
   if lineOfPeople.length === 0 {
     return "There is nobody waiting to be served!";
   }
