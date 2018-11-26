@@ -27,12 +27,14 @@ function currentLine(lineOfPeople){
     return "The line is currently empty.";
   }
   
-  var listOfCustomersInLine = ""
+  var listOfCustomersInLine = "The line is currently: "
   // Loop through each person in line
   for(var i = 0; i <  lineLength; i++) {
     let currentCustomer = lineOfPeople[i];
     let customNumber = i + 1;
-    
+    listOfCustomersInLine = currentNumber + ". " + currentCustomer + ","
   }
+  // Remove Extra Puctuation
+  
   
 }
