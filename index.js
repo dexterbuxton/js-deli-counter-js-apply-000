@@ -26,6 +26,12 @@ function currentLine(lineOfPeople){
   if (lineLength === 0) {
     return "The line is currently empty.";
   }
-  for i in 
+  
+  // Loop through each person in line
+  for(var i = 0; i <  lineLength; i++) {
+    let currentCustomer = lineOfPeople[i];
+    let customNumber = i + 1
+    
+  }
   
 }
