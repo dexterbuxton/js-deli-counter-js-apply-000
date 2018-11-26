@@ -18,3 +18,8 @@ function nowServing(lineOfPeople){
   let currentCustomer = lineOfPeople.shift()
   return `Currently serving ${currentCustomer}.`
 }
+
+
+function currentLine(lineOfPeople){
+  
+}
