@@ -3,6 +3,6 @@ function takeANumber(array, name) {
   array.push(name);
   // Determine the number for this customer
   let currentNumber = array.length + 1;
-  return 'Welcome, ${name}. You are number ${currentNumber} in line.'
+  return `Welcome, ${name}. You are number ${currentNumber} in line.`
 }
 
