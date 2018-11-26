@@ -7,5 +7,10 @@ function takeANumber(lineOfPeople, newCustomer) {
 }
 
 function nowServing(lineOfPeople){
+  // Remove the person at the beginning of the lineOfPeople
+  if lineOfPeople.length === 0 {
+    return 
+  }
+  let currentCustomer = lineOfPeople.shift()
   
 }
