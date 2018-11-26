@@ -6,3 +6,4 @@ function takeANumber(array, name) {
   return `Welcome, ${name}. You are number ${currentNumber} in line.`
 }
 
+function nowServing()
