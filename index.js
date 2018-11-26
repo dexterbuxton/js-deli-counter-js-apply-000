@@ -32,10 +32,10 @@ function currentLine(lineOfPeople){
   for(var i = 0; i <  lineLength; i++) {
     let currentCustomer = lineOfPeople[i];
     let currentNumber = i + 1;
-    customersInLine = currentNumber + ". " + currentCustomer + ",";
+    customersInLine = customersInLine + currentNumber + ". " + currentCustomer + ",";
   }
   // Remove Extra Puctuation
-  customersInLine.slice(0, -1);
+  customersInLine = customersInLine.slice(0, -1);
   
   return customersInLine;
 }
