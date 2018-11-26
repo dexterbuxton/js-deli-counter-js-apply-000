@@ -35,7 +35,7 @@ function currentLine(lineOfPeople){
     customersInLine = currentNumber + ". " + currentCustomer + ",";
   }
   // Remove Extra Puctuation
-  listOfCustomersInLine.slice(0, -1);
+  customersInLine.slice(0, -1);
   
   return customersInLine;
 }
