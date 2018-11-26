@@ -31,12 +31,11 @@ function currentLine(lineOfPeople){
   // Loop through each person in line
   for(var i = 0; i <  lineLength; i++) {
     let currentCustomer = lineOfPeople[i];
-    let customNumber = i + 1;
+    let currentNumber = i + 1;
     listOfCustomersInLine = currentNumber + ". " + currentCustomer + ",";
   }
   // Remove Extra Puctuation
   listOfCustomersInLine.slice(0, -1);
   
   return listOfCustomersInLine;
-  
 }
